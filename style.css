@@ -1,0 +1,204 @@
+/*Import Roboto Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* The header contains the header-title and header-links elements */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header-title {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+}
+
+/* Hero contains awesome and the logo img */
+.hero {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: c;
+    background-color: #1F2937;
+    padding: 100px 200px;
+}
+
+/* awesome contains hero-text and hero-subtext */
+.awesome {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 10px 0px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+/* information is a flex container that contains the information-title and info-cards elements */
+.information {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+/* info-cards contains the card elements */
+.info-cards {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* card contains the img-box and text elements */
+.card {
+    display: flex;
+    width: 150px;
+    margin: 40px 20px;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box {
+    display: flex;
+    padding: 70px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    color: gray;
+}
+
+/* Quote contains quote-text and quote-author */
+.quote {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: #E5E7EB;
+    padding: 120px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 8px;
+}
+
+/* The footer is a flex container that contains the call-to-action and button elements */
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+/* The call-to-action contains the footer-text element */
+.call-to-action {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 48px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+/* The footer-text contains the footer-subtitle and footer-subtext elements */
+.footer-text {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.footer-subtitle {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.footer-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Bottom copyright bar */
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
+/* Properties for the button elements */
+button {
+    flex: 0 0 auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 8px 24px;
+    width: 150px;
+}
+
+/* Remove list bullets */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+/* Remove underline decoration for links */
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    width: 500px;
+    height: 250px;
+    margin-left: 20px;
+}
